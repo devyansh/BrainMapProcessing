@@ -43,11 +43,11 @@ def get_result():
     results = []
     seizure_bins = []
     channels = []
-    saved_results = "saved_data/" + filename.split('.')[0] + "_results.txt"
-    saved_seizure_bins = "saved_data/" + filename.split('.')[0] + "_bins.txt"
-    saved_channels = "saved_data/" + filename.split('.')[0] + "_channels.txt"
+    saved_results = "saved_data\\" + filename.split('.')[0] + "_results.txt"
+    saved_seizure_bins = "saved_data\\" + filename.split('.')[0] + "_bins.txt"
+    saved_channels = "saved_data\\" + filename.split('.')[0] + "_channels.txt"
 
-    filepath = "saved_data/" + filename
+    filepath = "saved_data\\" + filename
     if not os.path.isdir("saved_data"):
         os.mkdir("saved_data")
     was_cached = os.path.isfile(saved_results)

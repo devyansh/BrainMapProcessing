@@ -1,0 +1,4 @@
+name: brainmap
+channels:
+  - defaults
+prefix: C:\Users\Home\.conda\envs\brainmap

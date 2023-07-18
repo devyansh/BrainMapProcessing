@@ -85,7 +85,7 @@ export default function Tool() {
       binWidth &&
       binSpacing &&
       binWidth >= 1 &&
-      binWidth <= 30 &&
+      binWidth <= 100 &&
       binSpacing >= 500 &&
       binSpacing <= 20000 &&
       binSpacing % 500 === 0
